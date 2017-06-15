@@ -19,9 +19,13 @@ System.out.println("My best group is "+ group.getName());
 System.out.println("List of Students: ");
 
 for(Student student : group.getStudents()){
+	if(student.getCity().equals("Kiev")){
+	
 	System.out.println("Login: " + student.getLogin() + " Name: " + student.getName()+ " .I'm from " +student.getCity());
+	System.out.println(student.hashCode());
 }
 		
 	}
 
+}
 }
