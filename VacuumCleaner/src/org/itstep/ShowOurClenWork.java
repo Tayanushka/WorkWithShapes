@@ -23,7 +23,7 @@ System.out.println("Robot model: "+robot.getModel()+ " finished clean after "
 +getTimeInSeconds(spendedTime) + " seconds");
 	}
 
-	private static String getTimeInSeconds(long spendedTime) {
+	public static String getTimeInSeconds(long spendedTime) {
 		
 		return String.valueOf(spendedTime/1000);
 	}
